@@ -5,7 +5,7 @@ milk = deque([int(x) for x in input().split(", ")])
 
 milkshakes = 0
 
-while(chocolates or milk):
+while(chocolates and milk):
     if(chocolates[-1] <= 0):
         chocolates.pop()
         if(not chocolates): break
