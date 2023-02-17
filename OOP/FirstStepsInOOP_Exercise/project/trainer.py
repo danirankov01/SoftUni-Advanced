@@ -1,5 +1,10 @@
+class Pokemon:
+    def __init__(self, name, health):
+        self.name = name
+        self.health = health
 
-from FirstStepsInOOP_Exercise.project.pokemon import Pokemon
+    def pokemon_details(self):
+        return f"{self.name} with health {self.health}"
 
 
 class Trainer:
@@ -23,7 +28,8 @@ class Trainer:
 
     def trainer_data(self):
         result = []
-        result.extend(f"Pokemon Trainer {self.name}", f"Pokemon count {len(self.pokemons)}")
+        result.append(f"Pokemon Trainer {self.name}")
+        result.append(f"Pokemon count {len(self.pokemons)}")
         for i in range(len(self.pokemons)):
             result.append(f"- {self.pokemons[i].pokemon_details()}")
 
