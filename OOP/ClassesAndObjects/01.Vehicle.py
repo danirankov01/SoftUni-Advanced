@@ -4,5 +4,7 @@ class Vehicle:
         self.max_speed = max_speed
         self.gadgets = []
 
+
 car = Vehicle(20)
 print(car.mileage)
+print(car.gadgets)
