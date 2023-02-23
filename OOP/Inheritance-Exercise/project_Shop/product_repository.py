@@ -1,4 +1,4 @@
-from project.product import Product
+from project_Need_For_Speed.product import Product
 
 
 class ProductRepository(Product):
