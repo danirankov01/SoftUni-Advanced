@@ -22,12 +22,12 @@ class Task:
     def add_comment(self, comment):
         self.comments.append(comment)
 
-    def edit_comment(self, comment_number, new_comment):
-        if not 0 <= comment_number < len(self.comments):
-            return "Cannot find comment."
+    def edit_comment(self, comment_number, new_number):
+        if 0 <= comment_number < len(self.comments):
+            self.comments[comment_number] = new_number
+            return ", ".join(self.comments)
 
-        self.comments[comment_number] = new_comment
-        return ", ".join(self.comments)
+        return "Cannot find comment."
 
     def details(self):
         return f"Name: {self.name} - Due Date: {self.due_date}"

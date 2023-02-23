@@ -14,26 +14,26 @@ class Section:
         return f"Task {new_task.details()} is added to the section"
 
     def complete_task(self, task_name):
-        for name_task in self.tasks:
-            if name_task == task_name:
-                name_task.completed = True
+        for t in self.tasks:
+            if t.name == task_name:
+                t.completed = True
                 return f"Completed task {task_name}"
 
         return f"Could not find task with the name {task_name}"
 
     def clean_section(self):
-        count = 0
-        for idx, task in enumerate(self.tasks):
-            if task.completed:
-                count += 1
-                del self.tasks[idx]
+        counter = 0
+        for t in filter(lambda x: x.completed, self.tasks):
+            self.tasks.remove(t)
+            counter += 1
 
-        return f"Cleared {count} tasks."
+        return f"Cleared {counter} tasks."
 
     def view_section(self):
         result = f"Section {self.name}:"
-        for task in self.tasks:
-            result += f"\n{task.details()}"
+
+        for t in self.tasks:
+            result += f"\n{t.details()}"
 
         return result
 
@@ -50,3 +50,4 @@ second_task = Task("Make bed", "27/05/2020")
 section.add_task(second_task)
 print(section.clean_section())
 print(section.view_section())
+
