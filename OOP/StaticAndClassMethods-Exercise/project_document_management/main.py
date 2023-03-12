@@ -19,3 +19,4 @@ print(c1)
 print(t1)
 print(storage.get_document(1))
 print(storage)
+

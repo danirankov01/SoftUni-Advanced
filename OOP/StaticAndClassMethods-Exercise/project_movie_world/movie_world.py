@@ -17,52 +17,43 @@ class MovieWorld:
         return 10
 
     def add_customer(self, customer: Customer):
-        if MovieWorld.customer_capacity() > len(self.customers):
+        if self.customer_capacity() > len(self.customers):
             self.customers.append(customer)
 
     def add_dvd(self, dvd: DVD):
-        if MovieWorld.dvd_capacity() > len(self.dvds):
+        if self.dvd_capacity() > len(self.dvds):
             self.dvds.append(dvd)
 
     def rent_dvd(self, customer_id, dvd_id):
-        for customer in self.customers:
-            if customer.id == customer_id:
-                for dvd in customer.rented_dvds:
-                    if dvd.id == dvd_id:
-                        return f"{customer.name} has already rented {dvd.name}"
-            elif customer.id != customer_id:
-                for dvd in customer.rented_dvds:
-                    if dvd.id == dvd_id:
-                        return "DVD is already rented"
+        customer = [c for c in self.customers if c.id == customer_id][0]
+        dvd = [d for d in self.dvds if d.id == dvd_id][0]
 
-        for customer in self.customers:
-            if customer.id == customer_id:
-                for dvd in self.dvds:
-                    if dvd.id == dvd_id:
-                        if customer.age < dvd.age_restriction:
-                            return f"{customer.name} should be at least {dvd.age_restriction} to rent this movie"
+        if dvd in customer.rented_dvds:
+            return f"{customer.name} has already rented {dvd.name}"
 
-                        customer.rented_dvds.append(dvd)
-                        dvd.is_rented = True
-                        return f"{customer.name} has successfully rented {dvd.name}"
+        if dvd.is_rented:
+            return f"DVD is already rented"
+
+        if customer.age < dvd.age_restriction:
+            return f"{customer.name} should be at least {dvd.age_restriction} to rent this movie"
+
+        dvd.is_rented = True
+        customer.rented_dvds.append(dvd)
+        return f"{customer.name} has successfully rented {dvd.name}"
 
     def return_dvd(self, customer_id, dvd_id):
-        for customer in self.customers:
-            if customer.id == customer_id:
-                for dvd in customer.rented_dvds:
-                    if dvd.id == dvd_id:
-                        dvd.is_rented = False
-                        del customer.rented_dvds[dvd]
-                        return f"{customer.name} has successfully returned {dvd.name}"
+        customer = [c for c in self.customers if c.id == customer_id][0]
+        dvd = [d for d in self.dvds if d.id == dvd_id][0]
 
-                return f"{customer.name} does not have that DVD"
+        if dvd in customer.rented_dvds:
+            dvd.is_rented = False
+            customer.rented_dvds.remove(dvd)
+            return f"{customer.name} has successfully returned {dvd.name}"
+
+        return f"{customer.name} does not have that DVD"
 
     def __repr__(self):
-        result = ""
-        for customer in self.customers:
-            result += f"{str(customer)}\n"
-
-        for dvd in self.dvds:
-            result += f"{str(dvd)}\n"
-
-        return result.rstrip()
+        return '\n'.join([
+            *[str(c) for c in self.customers],
+            *[str(d) for d in self.dvds]
+        ])

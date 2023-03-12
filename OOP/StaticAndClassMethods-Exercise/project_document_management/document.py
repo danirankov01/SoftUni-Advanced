@@ -11,7 +11,7 @@ class Document:
         self.tags = []
 
     @classmethod
-    def from_instance(cls, id, category: Category, topic: Topic, file_name):
+    def from_instances(cls, id, category: Category, topic: Topic, file_name):
         return cls(id, category.id, topic.id, file_name)
 
     def add_tag(self, tag_content):
