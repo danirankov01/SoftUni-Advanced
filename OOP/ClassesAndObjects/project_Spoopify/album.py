@@ -1,4 +1,4 @@
-from project_Spoopify.song import Song
+from project_spoopify.song import Song
 
 
 class Album:
@@ -12,10 +12,10 @@ class Album:
             return f"Cannot add {song.name}. It's a single"
 
         if self.published:
-            return "Cannot add songs. Album is published."
+            return f"Cannot add songs. Album is published."
 
         if song in self.songs:
-            return "Song is already in the album."
+            return f"Song is already in the album."
 
         self.songs.append(song)
         return f"Song {song.name} has been added to the album {self.name}."
@@ -26,10 +26,11 @@ class Album:
         except StopIteration:
             return "Song is not in the album."
 
-        if song.published:
-            return "Cannot remove songs. Album is published."
+        if self.published:
+            return f"Cannot remove songs. Album is published."
 
         self.songs.remove(song)
+
         return f"Removed song {song_name} from album {self.name}."
 
     def publish(self):

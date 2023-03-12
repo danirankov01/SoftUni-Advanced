@@ -1,4 +1,4 @@
-from project_Guild_System.player import Player
+from project_guild_system.player import Player
 
 
 class Guild:
@@ -15,8 +15,7 @@ class Guild:
 
         self.players.append(player)
         player.guild = self.name
-
-        return f"Welcome player {player.name} to the guild {self.name}"
+        return f"Welcome player {player.name} to the guild {player.guild}"
 
     def kick_player(self, player_name):
         try:
@@ -24,9 +23,8 @@ class Guild:
         except StopIteration:
             return f"Player {player_name} is not in the guild."
 
-        player.guild = "Unaffiliated"
         self.players.remove(player)
-
+        player.guild = "Unaffiliated"
         return f"Player {player_name} has been removed from the guild."
 
     def guild_info(self):
@@ -34,3 +32,11 @@ class Guild:
         [result.append(p.player_info()) for p in self.players]
 
         return '\n'.join(result)
+
+
+player = Player("George", 50, 100)
+print(player.add_skill("Shield Break", 20))
+print(player.player_info())
+guild = Guild("UGT")
+print(guild.assign_player(player))
+print(guild.guild_info())

@@ -5,35 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="715aa8e9-d631-4514-8ded-e96fcb56f6c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_Spoopify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_Spoopify/band.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project/drink.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project/product_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Person/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Person/child.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Person/person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/bear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/gorilla.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/lizard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/mammal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/reptile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance-Exercise/project_Zoo/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_To_Do_List/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/groups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/birds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/mammals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/kitten.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/tomcat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_formula_1_manager/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/vehicle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/equipment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/exercise_plan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/gym.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/subscription.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/trainer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/song.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/song.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.PizzaDelivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/04.PizzaDelivery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_Guild_System/guild.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Guild_System/guild.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_Guild_System/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Guild_System/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_To_Do_List/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_Spoopify/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_Spoopify/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/band.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_To_Do_List/section.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_To_Do_List/section.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_To_Do_List/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_To_Do_List/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/photo_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/photo_album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/equipment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/exercise_plan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/gym.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/subscription.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/dvd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/dvd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/movie_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/movie_world.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +78,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/SoftUni Advanced/SoftUni-Advanced/OOP/ClassesAndObjects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/SoftUni Advanced/SoftUni-Advanced/OOP/PolymorphismAndAbstraction-Exercise"
   }
-}</component>
-  <component name="RunManager" selected="Python.library">
-    <configuration name="album" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="04.PizzaDelivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ClassesAndObjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,32 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/album.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="band" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ClassesAndObjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/band.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.PizzaDelivery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="library (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ClassesAndObjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_library" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/library.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_library/library.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ClassesAndObjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,7 +161,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/player.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ClassesAndObjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_spoopify" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_spoopify/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.library" />
-        <item itemvalue="Python.band" />
-        <item itemvalue="Python.album" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.library (1)" />
+        <item itemvalue="Python.04.PizzaDelivery" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.guild" />
-        <item itemvalue="Python.player" />
       </list>
     </recent_temporary>
   </component>

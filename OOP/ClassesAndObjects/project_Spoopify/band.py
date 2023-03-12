@@ -1,4 +1,4 @@
-from project_Spoopify.album import Album
+from project_spoopify.album import Album
 
 
 class Band:
@@ -17,16 +17,17 @@ class Band:
         try:
             album = next(filter(lambda a: a.name == album_name, self.albums))
         except StopIteration:
-            return f"Album {self.name} is not found."
+            return f"Album {album_name} is not found."
 
         if album.published:
-            return "Album has been published. It cannot be removed."
+            return f"Album has been published. It cannot be removed."
 
         self.albums.remove(album)
-        return f"Album {self.name} has been removed."
+        return f"Album {album_name} has been removed."
 
     def details(self):
-        result = [f"Band {self.name}"]
-        [result.append(a.details()) for a in self.albums]
+        result = f"Band {self.name}"
+        for s in self.albums:
+            result += f"\n{s.details()}"
 
-        return '\n'.join(result)
+        return result
