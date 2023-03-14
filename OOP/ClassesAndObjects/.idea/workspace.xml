@@ -5,55 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="715aa8e9-d631-4514-8ded-e96fcb56f6c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project_To_Do_List/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/groups.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/birds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/mammals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/cat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/dog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/kitten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/tomcat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_formula_1_manager/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/vehicle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/equipment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/exercise_plan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/gym.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/subscription.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/guild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/bold_italic_underline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/even_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/execution_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/html_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/logged.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/store_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/type_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/even_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/multiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/number_increment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/vowel_filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.PizzaDelivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/04.PizzaDelivery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Guild_System/guild.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Guild_System/guild.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Guild_System/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Guild_System/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_library/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_library/registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_library/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_Guild_System/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_Guild_System/guild.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_Guild_System/player.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project_Spoopify/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/album.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_Spoopify/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/band.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_To_Do_List/section.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_To_Do_List/section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_To_Do_List/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_To_Do_List/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/photo_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/photo_album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_gym/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/equipment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/exercise_plan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/gym.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/subscription.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_document_management/storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/dvd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/dvd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/movie_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StaticAndClassMethods-Exercise/project_movie_world/movie_world.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +55,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/SoftUni Advanced/SoftUni-Advanced/OOP/PolymorphismAndAbstraction-Exercise"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/SoftUni Advanced/SoftUni-Advanced/OOP/PolymorphismAndAbstraction-Exercise&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main (1)">
     <configuration name="04.PizzaDelivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ClassesAndObjects" />

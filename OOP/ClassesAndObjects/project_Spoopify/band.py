@@ -20,14 +20,15 @@ class Band:
             return f"Album {album_name} is not found."
 
         if album.published:
-            return f"Album has been published. It cannot be removed."
+            return "Album has been published. It cannot be removed."
 
         self.albums.remove(album)
-        return f"Album {album_name} has been removed."
+        return f"Album {album.name} has been removed."
 
     def details(self):
         result = f"Band {self.name}"
-        for s in self.albums:
-            result += f"\n{s.details()}"
+
+        for a in self.albums:
+            result += f"\n{a.details()}"
 
         return result
