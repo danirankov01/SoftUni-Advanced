@@ -1,8 +1,10 @@
 def tags(tag):
-    def decorator(func):
-        def wrapper(*args):
-            return f"<{tag}>{func(*args)}</{tag}>"
+    def decorator(function):
+        def wrapper(*text):
+            return f"<{tag}>{function(*text)}</{tag}>"
+
         return wrapper
+
     return decorator
 
 

@@ -1,13 +1,12 @@
 def even_parameters(function):
-    def wrapper(*args):
-        for x in args:
-            if isinstance(x, int) and x % 2 == 0:
-                continue
+    def decorator(*numbers):
+        for num in numbers:
+            if isinstance(num, str) or num % 2 != 0:
+                return f"Please use only even numbers!"
 
-            return "Please use only even numbers!"
-        return function(*args)
-    return wrapper
+        return function(*numbers)
 
+    return decorator
 
 
 @even_parameters
@@ -17,6 +16,7 @@ def add(a, b):
 
 print(add(2, 4))
 print(add("Peter", 1))
+
 
 @even_parameters
 def multiply(*nums):

@@ -1,12 +1,11 @@
-def cache(func):
+def cache(function):
     def wrapper(number):
         if number not in wrapper.log:
-            wrapper.log[number] = func(number)
+            wrapper.log[number] = function(number)
 
         return wrapper.log[number]
 
     wrapper.log = {}
-
     return wrapper
 
 
