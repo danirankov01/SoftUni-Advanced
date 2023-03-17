@@ -5,32 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="715aa8e9-d631-4514-8ded-e96fcb56f6c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/guild.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_library/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/bold_italic_underline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/even_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/execution_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/html_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/logged.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/store_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Exercise/type_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/even_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/multiply.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/number_increment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorators-Lab/vowel_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/registration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_guild_system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_guild_system/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_library/library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_library/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_library/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Guild_System/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Guild_System/guild.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Guild_System/player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Spoopify/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_Spoopify/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_Spoopify/band.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/guild.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_guild_system/guild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_guild_system/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_library/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_library/library.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_library/registration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_library/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/bold_italic_underline.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/bold_italic_underline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/even_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/even_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/html_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/html_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/logged.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/logged.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/store_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/store_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decorators-Exercise/type_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorators-Exercise/type_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exams/project/band_members/musician.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams/project/band_members/musician.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,5 +194,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/main.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/main.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
