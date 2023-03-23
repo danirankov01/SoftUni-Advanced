@@ -1,11 +1,8 @@
-from abc import ABC, abstractmethod
-
-
-class Musician(ABC):
+class Jockey:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-        self.skills = []
+        self.horse = None
 
     @property
     def name(self):
@@ -14,7 +11,7 @@ class Musician(ABC):
     @name.setter
     def name(self, value):
         if value.strip() == "":
-            raise ValueError("Musician name cannot be empty!")
+            raise ValueError("Name should contain at least one character!")
 
         self.__name = value
 
@@ -24,11 +21,8 @@ class Musician(ABC):
 
     @age.setter
     def age(self, value):
-        if value < 16:
-            raise ValueError("Musicians should be at least 16 years old!")
+        if value < 18:
+            raise ValueError("Jockeys must be at least 18 to participate in the race!")
 
         self.__age = value
 
-    @abstractmethod
-    def learn_new_skill(self, new_skill):
-        pass

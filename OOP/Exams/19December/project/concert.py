@@ -12,8 +12,8 @@ class Concert:
 
     @genre.setter
     def genre(self, value):
-        if value != "Metal" or value != "Rock" or value != "Jazz":
-            raise ValueError(f"Our group doesn't play {self.genre}!")
+        if value not in ["Metal", "Rock", "Jazz"]:
+            raise ValueError(f"Our group doesn't play {value}!")
         self.__genre = value
 
     @property
@@ -42,8 +42,8 @@ class Concert:
 
     @expenses.setter
     def expenses(self, value):
-        if value < 0.00:
-            raise ValueError(f"Expenses cannot be a negative number!")
+        if value < 0:
+            raise ValueError("Expenses cannot be a negative number!")
         self.__expenses = value
 
     @property
