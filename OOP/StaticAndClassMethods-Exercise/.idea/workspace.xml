@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8508e1f9-4853-4d44-9253-67e2d8a948d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/birds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/animals/mammals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/cat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/dog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/kitten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_animals/tomcat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/project_formula_1_manager/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/vehicle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/equipment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/exercise_plan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/gym.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/subscription.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_gym/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo_album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_gym/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/equipment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/exercise_plan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/gym.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/subscription.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PolymorphismAndAbstraction-Exercise/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_document_management/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_document_management/document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_document_management/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_document_management/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_document_management/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_document_management/storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_movie_world/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_movie_world/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_movie_world/dvd.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_movie_world/dvd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_movie_world/movie_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_movie_world/movie_world.py" afterDir="false" />
-    </list>
+    <list default="true" id="8508e1f9-4853-4d44-9253-67e2d8a948d9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

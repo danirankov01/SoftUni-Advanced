@@ -10,7 +10,6 @@ class Library:
     def get_book(self, author, book_name, days_to_return, user: User):
         if book_name in self.books_available[author]:
             user.books.append(book_name)
-            self.books_available[author].remove(book_name)
 
             if user.username not in self.rented_books:
                 self.rented_books[user.username] = {book_name: days_to_return}
